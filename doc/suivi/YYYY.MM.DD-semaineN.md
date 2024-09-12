@@ -1,13 +1,15 @@
 # Point Hebdomadaire - Projet
 
-Date : Jeudi ...
+Date : Jeudi 12/09/2024
 Semaine n° ...
 
 ## Tâches réalisées cette semaine
 
 > Exemples : `- [x] Tâche 1` ou - `ras`
 
-### Nom Prénom élève 1
+### Ibrahima Alain GUEYE
+- [x] Travail sur le diagramme des classes: définition des entités
+ et des relations
 
 ### Nom Prénom élève 2
 
