@@ -1,7 +1,7 @@
 # Point Hebdomadaire - Projet
 
-Date : Jeudi ...
-Semaine n° ...
+Date : Jeudi 12 septembre
+Semaine n° 1
 
 ## Tâches réalisées cette semaine
 
