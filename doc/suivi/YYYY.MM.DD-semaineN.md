@@ -11,7 +11,8 @@ Semaine n° ...
 - [x] Travail sur le diagramme des classes: définition des entités
  et des relations
 
-### Nom Prénom élève 2
+### Yatoute MINTOAMA
+- Structuration d'un projet Fast API
 
 ### Nom Prénom élève 3
 
