@@ -1,6 +1,6 @@
 # Point Hebdomadaire - Projet
 
-Date : Jeudi 12/09/2024
+Date : Jeudi ...
 Semaine n° ...
 
 ## Tâches réalisées cette semaine
