@@ -12,7 +12,7 @@ Semaine n° ...
  et des relations
 
 ### Yatoute MINTOAMA
-- Structuration d'un projet Fast API
+- [x] Structuration d'un projet Fast API
 
 ### Nom Prénom élève 3
 
