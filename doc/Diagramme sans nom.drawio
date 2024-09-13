@@ -1,52 +1,94 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.13">
   <diagram name="Page-1" id="VrH6cMHvCVDEhrqtHkwV">
-    <mxGraphModel dx="746" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1168" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-1" value="Utilisateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="104" y="300" width="30" height="60" as="geometry" />
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-1" value="Utilisateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="405" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="170" width="520" height="320" as="geometry" />
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-10" width="650" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-3" target="nn7kCt6rPqkaCFHMMwmE-6">
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nn7kCt6rPqkaCFHMMwmE-3" target="nn7kCt6rPqkaCFHMMwmE-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-3" value="Connaitre les informations technique d&#39;un film" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="180" width="130" height="90" as="geometry" />
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-3" value="Connaitre les informations technique d&#39;un film" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="30" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-4" target="nn7kCt6rPqkaCFHMMwmE-6">
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-4" target="nn7kCt6rPqkaCFHMMwmE-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-4" target="nn7kCt6rPqkaCFHMMwmE-10">
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-4" value="Noter un film" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="390" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nn7kCt6rPqkaCFHMMwmE-5" target="nn7kCt6rPqkaCFHMMwmE-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-5" value="Consulter les avis des &quot;éclaireurs&quot; sur les films qu&#39;ils ont notés&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="172.5" y="630" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-6" target="nn7kCt6rPqkaCFHMMwmE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-6" value="Rechercher un film" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="150" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-10" value="Se connecter / s&#39;inscrire" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="330" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-12" target="Fjddjj9d4KbrgobwnhHL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-12" value="Ajouter des &quot;éclaireurs&quot; à sa listes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="700" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fjddjj9d4KbrgobwnhHL-3" target="nn7kCt6rPqkaCFHMMwmE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-3" value="Voir la moyenne des notes des éclaireurs par rapport à un film" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="790" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fjddjj9d4KbrgobwnhHL-5" target="nn7kCt6rPqkaCFHMMwmE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-5" value="Modifier la note" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="390" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fjddjj9d4KbrgobwnhHL-10" target="nn7kCt6rPqkaCFHMMwmE-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="350" y="330" />
-              <mxPoint x="350" y="365" />
+              <mxPoint x="298" y="330" />
+              <mxPoint x="480" y="330" />
+              <mxPoint x="480" y="195" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-4" value="Noter un film" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="285" width="130" height="90" as="geometry" />
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-10" value="Ajouter un film à ses &quot;films favories&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="290" width="125" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-5" target="nn7kCt6rPqkaCFHMMwmE-12">
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fjddjj9d4KbrgobwnhHL-14" target="nn7kCt6rPqkaCFHMMwmE-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-5" value="Consulter les avis des &quot;éclaireurs&quot; sur les films qu&#39;ils ont notés&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="390" width="130" height="90" as="geometry" />
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-14" value="Rechercher d&#39;autres utilisateurs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="700" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-6" value="Rechercher un film" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="349" y="230" width="130" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-10" value="Se connecter / s&#39;inscrire" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="320" width="130" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nn7kCt6rPqkaCFHMMwmE-12" target="nn7kCt6rPqkaCFHMMwmE-10">
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fjddjj9d4KbrgobwnhHL-18" target="nn7kCt6rPqkaCFHMMwmE-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-12" value="Rechercher et ajouter des &quot;éclaireurs&quot; à sa listes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="390" width="130" height="90" as="geometry" />
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-18" value="Se déconnecter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="490" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fjddjj9d4KbrgobwnhHL-20" target="nn7kCt6rPqkaCFHMMwmE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="235" />
+              <mxPoint x="480" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-20" value="Ajouter un film à sa liste &quot;à regarder plus tard &quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168.75" y="190" width="132.5" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
