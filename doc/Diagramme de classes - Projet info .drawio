@@ -100,13 +100,13 @@
           <mxGeometry x="840" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QUixbwAzo_8CxbM0iSIQ-27" value="FilmRecherche" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="930" width="270" height="130" as="geometry" />
+          <mxGeometry x="460" y="930" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QUixbwAzo_8CxbM0iSIQ-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QUixbwAzo_8CxbM0iSIQ-27" vertex="1">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="QUixbwAzo_8CxbM0iSIQ-29" value="&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_id(int) : Film&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_titre(str) : list[Film]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ recherche_par_genre (str) : list[Film]&lt;/div&gt;&lt;div&gt;+ ajouter_film_favoris(Utilisateur, Film) : bool&lt;div&gt;+ film_vu(Utilisateur, Film) : Visionnage&lt;/div&gt;&lt;div&gt;+ film_a_voir (Utilisateur, Film) : Visionnage&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QUixbwAzo_8CxbM0iSIQ-27" vertex="1">
-          <mxGeometry y="34" width="270" height="96" as="geometry" />
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_id(int) : Film&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_titre(str) : list[Film]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ recherche_par_genre (str) : list[Film]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QUixbwAzo_8CxbM0iSIQ-27" vertex="1">
+          <mxGeometry y="34" width="270" height="66" as="geometry" />
         </mxCell>
         <mxCell id="nlk01ConiAujDCRmsQrJ-1" value="VisionnageDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="232" width="160" height="250" as="geometry" />
