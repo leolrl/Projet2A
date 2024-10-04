@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="VrH6cMHvCVDEhrqtHkwV">
-    <mxGraphModel dx="993" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="nn7kCt6rPqkaCFHMMwmE-4" value="Noter un film" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="177.5" y="250" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-5" value="Consulter les avis des &quot;éclaireurs&quot; sur les films qu&#39;ils ont notés&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-5" value="Consulter les avis des &quot;éclaireurs&quot; sur les films qu&#39;ils ont noté&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="460" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nn7kCt6rPqkaCFHMMwmE-6" value="Rechercher un film" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -25,10 +25,10 @@
         <mxCell id="nn7kCt6rPqkaCFHMMwmE-12" value="Ajouter un nouveau &quot;éclaireurs&quot;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="350" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Fjddjj9d4KbrgobwnhHL-3" value="Voir la moyenne des notes des films d&#39;un éclaireur" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-3" value="Voir la moyenne des notes d&#39;un éclaireur" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="570" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Fjddjj9d4KbrgobwnhHL-10" value="Ajouter un film à ses &quot;films favories&quot;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Fjddjj9d4KbrgobwnhHL-10" value="Ajouter un film à ses &quot;films favoris&quot;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="125" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Fjddjj9d4KbrgobwnhHL-14" value="Rechercher d&#39;autres utilisateurs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
