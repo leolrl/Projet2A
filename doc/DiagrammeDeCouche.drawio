@@ -10,10 +10,10 @@
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-3" value="TMBD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="100" width="120" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-4" value="Utilisateur" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="90" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-5" value="Stockage local" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="350" width="480" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
