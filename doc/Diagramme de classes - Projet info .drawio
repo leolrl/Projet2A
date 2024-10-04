@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="-lLpuW26wP0kKTF83kYT">
-    <mxGraphModel dx="2150" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="Nlg_wDLqZmPlsAexhDsB-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Nlg_wDLqZmPlsAexhDsB-1" vertex="1">
           <mxGeometry y="140" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Nlg_wDLqZmPlsAexhDsB-4" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ suivre_eclaireur (Utilisateur):bool&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ arreter_de_suivre(Utilisateur):bool&lt;/div&gt;&lt;div&gt;+ informations()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-1" vertex="1">
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-4" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ suivre_eclaireur (Utilisateur):bool&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ arreter_de_suivre(Utilisateur):bool&lt;/div&gt;&lt;div&gt;+ informations() : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-1" vertex="1">
           <mxGeometry y="148" width="220" height="72" as="geometry" />
         </mxCell>
         <mxCell id="Nlg_wDLqZmPlsAexhDsB-5" value="Film" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Nlg_wDLqZmPlsAexhDsB-9" value="Visionnage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="450" width="160" height="208" as="geometry" />
+          <mxGeometry x="370" y="450" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Nlg_wDLqZmPlsAexhDsB-10" value="+ id_utilisateur: int&lt;div&gt;+ id_film: int&lt;/div&gt;&lt;div&gt;+ vu : bool&lt;/div&gt;&lt;div&gt;+ note: int&lt;/div&gt;&lt;div&gt;+ commentaire : str&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
           <mxGeometry y="26" width="160" height="84" as="geometry" />
@@ -53,8 +53,8 @@
         <mxCell id="Nlg_wDLqZmPlsAexhDsB-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
           <mxGeometry y="110" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Nlg_wDLqZmPlsAexhDsB-12" value="&lt;div&gt;+__init__( &quot;a_vu&quot;)&lt;br&gt;&lt;/div&gt;+ noter()&lt;div&gt;+ commenter()&lt;br&gt;&lt;div&gt;&lt;i&gt;Voir si dictionnaire&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
-          <mxGeometry y="118" width="160" height="90" as="geometry" />
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-12" value="&lt;div&gt;+__init__()&lt;br&gt;&lt;/div&gt;+ noter(int)&lt;div&gt;+ commenter(str)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
+          <mxGeometry y="118" width="160" height="62" as="geometry" />
         </mxCell>
         <mxCell id="Nlg_wDLqZmPlsAexhDsB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.049;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;" parent="1" source="Nlg_wDLqZmPlsAexhDsB-12" target="Nlg_wDLqZmPlsAexhDsB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -117,14 +117,6 @@
         <mxCell id="nlk01ConiAujDCRmsQrJ-4" value="+ creer(Visionnage) :: bool&lt;div&gt;+ supprimer(Visionnage) :: bool&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ modifier(Visionnage) :: bool&lt;br&gt;&lt;div&gt;+ films_vus(Utilisateur) :: list[int]&lt;/div&gt;&lt;div&gt;+ films_a_voir(Utilisateur) :: list[int]&lt;/div&gt;&lt;div&gt;+ ont_vus(Film) :: list[int]&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ trouver_commentaire (Utilisateur, Film) :: str&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ trouver_note (Utilisateur, Film) :: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nlk01ConiAujDCRmsQrJ-1" vertex="1">
           <mxGeometry y="34" width="160" height="216" as="geometry" />
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nlk01ConiAujDCRmsQrJ-6" target="Nlg_wDLqZmPlsAexhDsB-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-8" value="Créé" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HXxvRozE7-PYDhMRJ1Kh-7">
-          <mxGeometry x="0.328" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nlk01ConiAujDCRmsQrJ-6" value="TMDB API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="578" width="120" height="60" as="geometry" />
         </mxCell>
@@ -144,22 +136,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HXxvRozE7-PYDhMRJ1Kh-1" target="Nlg_wDLqZmPlsAexhDsB-12">
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HXxvRozE7-PYDhMRJ1Kh-1" target="Nlg_wDLqZmPlsAexhDsB-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-1" value="FilmService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-1" value="FilmService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="760" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HXxvRozE7-PYDhMRJ1Kh-1">
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HXxvRozE7-PYDhMRJ1Kh-1" vertex="1">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-3" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ajouter_film_favoris(Utilisateur, Film) : bool&lt;div&gt;+ film_vu(Utilisateur, Film) : Visionnage&lt;/div&gt;&lt;div&gt;+ film_a_voir (Utilisateur, Film) : Visionnage&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HXxvRozE7-PYDhMRJ1Kh-1">
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-3" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ajouter_film_favoris(Utilisateur, Film) : bool&lt;div&gt;+ film_vu(Utilisateur, Film) : Visionnage&lt;/div&gt;&lt;div&gt;+ film_a_voir (Utilisateur, Film) : Visionnage&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HXxvRozE7-PYDhMRJ1Kh-1" vertex="1">
           <mxGeometry y="34" width="270" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QUixbwAzo_8CxbM0iSIQ-29" target="nlk01ConiAujDCRmsQrJ-6">
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QUixbwAzo_8CxbM0iSIQ-29" target="nlk01ConiAujDCRmsQrJ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-6" value="Appelle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HXxvRozE7-PYDhMRJ1Kh-5">
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-6" value="Appelle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HXxvRozE7-PYDhMRJ1Kh-5" vertex="1" connectable="0">
           <mxGeometry x="0.6111" y="3" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
