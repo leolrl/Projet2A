@@ -22,7 +22,7 @@
         <mxCell id="nn7kCt6rPqkaCFHMMwmE-10" value="S&#39;authentifier" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nn7kCt6rPqkaCFHMMwmE-12" value="Ajouter un nouveau &quot;éclaireurs&quot;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nn7kCt6rPqkaCFHMMwmE-12" value="Ajouter un nouvel &quot;éclaireur&quot;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="350" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Fjddjj9d4KbrgobwnhHL-3" value="Voir la moyenne des notes d&#39;un éclaireur" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
