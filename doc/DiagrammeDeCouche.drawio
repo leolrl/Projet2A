@@ -7,7 +7,7 @@
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="80" width="660" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-3" value="TMBD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="100" width="120" height="280" as="geometry" />
         </mxCell>
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -19,7 +19,7 @@
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="140" width="480" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-8" value="Objet :&lt;br&gt;Utilisateur ;&lt;div&gt;Film ;&lt;/div&gt;&lt;div&gt;Film vu&lt;br&gt;etc ...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="160" width="80" height="160" as="geometry" />
         </mxCell>
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cZzJJIXl-7JBf4aYZuKc-9" target="cZzJJIXl-7JBf4aYZuKc-10">
@@ -37,10 +37,10 @@
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cZzJJIXl-7JBf4aYZuKc-10" target="cZzJJIXl-7JBf4aYZuKc-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-10" value="Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="215" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-11" value="PostgrSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="280" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cZzJJIXl-7JBf4aYZuKc-11" target="cZzJJIXl-7JBf4aYZuKc-10">
