@@ -37,7 +37,7 @@
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cZzJJIXl-7JBf4aYZuKc-10" target="cZzJJIXl-7JBf4aYZuKc-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cZzJJIXl-7JBf4aYZuKc-10" value="Service :&lt;div&gt;UtilisateurService / VisionnageService&lt;/div&gt;&lt;div&gt;FilmRecherche&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cZzJJIXl-7JBf4aYZuKc-10" value="Service :&lt;div&gt;UtilisateurService / VisionnageService /&lt;/div&gt;&lt;div&gt;FilmService&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="200" width="360" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cZzJJIXl-7JBf4aYZuKc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
