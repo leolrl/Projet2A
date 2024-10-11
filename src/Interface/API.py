@@ -22,7 +22,7 @@ def run_app(movie_service: MovieService):
                 status_code=404,
                 detail="Movie with id [{}] not found".format(tmdb_id),
             ) from FileNotFoundError
-        except Exception:
-            raise HTTPException(status_code=400, detail="Invalid request") from Exception
+        except Exception as error:
+            raise HTTPException(status_code=400, detail="Invalid request") from error
 
     uvicorn.run(app, port=8000, host="localhost")

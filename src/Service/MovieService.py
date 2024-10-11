@@ -13,8 +13,6 @@ class MovieService:
         self.movie_db = movie_db
 
     def get_by_id(self, movie_id: int) -> Movie:
-        url = f'https://api.themoviedb.org/3/movie/{film_id}'
-        response = requests.get(url,headers=headers)
-        data = response.json()
-        return Movie(id=movie_id, original_title=data.get('original_title', 'Non disponible'))
+        return Movie(id=1, original_title="Un jour peut etre cette ligne renverra quelque chose d'interressant")
         # return self.movie_db.get_by_id(movie_id)
+
