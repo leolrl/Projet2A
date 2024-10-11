@@ -6,7 +6,8 @@ from src.utils.singleton import Singleton
 
 
 class UtilisateurDao(metaclass=Singleton):
-    """Classe contenant les méthodes pour accéder aux Utilisateurs de la base de données"""
+    """Classe contenant les méthodes pour accéder aux Utilisateurs 
+    de la base de données"""
 
     def creer(self, utilisateur: Utilisateur) -> bool:
         """Creation d'un utilisateur dans la base de données
@@ -28,14 +29,12 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO projet_info.utilisateur(pseudo, mdp, liste_eclaireurs, liste_films_favoris) VALUES "
-                        "(%(pseudo)s, %(mdp)s, %(liste_eclaireurs)s, %(liste_films_favoris)s)             "
-                        "  RETURNING id_utilisateur;                                                ",
+                        "INSERT INTO projet_info.utilisateur(pseudo, mdp) VALUES "
+                        "(%(pseudo)s, %(mdp)s)             "
+                        "  RETURNING id_utilisateur;               ",
                         {
                             "pseudo": utilisateur.pseudo,
                             "mdp": utilisateur.mdp,
-                            "liste_eclaireurs": utilisateur.liste_eclaireurs,
-                            "liste_films_favoris": utilisateur.liste_films_favoris
                         },
                     )
                     res = cursor.fetchone()
@@ -82,8 +81,6 @@ class UtilisateurDao(metaclass=Singleton):
         if res:
             utilisateur = Utilisateur(
                 pseudo=res["pseudo"],
-                liste_films_favoris=res["liste_films_favoris"],
-                liste_eclaireurs=res["liste_eclaireurs"],
                 id_utilisateur=res["id_utilisateur"],
             )
 
@@ -122,9 +119,7 @@ class UtilisateurDao(metaclass=Singleton):
                 utilisateur = Utilisateur(
                     id_utilisateur=row["id_utilisateur"],
                     pseudo=row["pseudo"],
-                    mdp=row["mdp"],
-                    liste_films_favoris=row["liste_films_favoris"],
-                    liste_eclaireurs=row["liste_eclaireurs"],
+                    mdp=row["mdp"]
                 )
 
                 liste_utilisateurs.append(utilisateur)
@@ -155,15 +150,10 @@ class UtilisateurDao(metaclass=Singleton):
                         "UPDATE utilisateur                            "
                         "   SET pseudo      = %(pseudo)s,                   "
                         "       mdp         = %(mdp)s,                      "
-                        "       liste_films_favoris         = %(liste_films_favoris)s,  "
-                        "       liste_eclaireurs = %(liste_eclaireurs)s               "
                         " WHERE id_utilisateur = %(id_utilisateur)s;                  ",
                         {
                             "pseudo": utilisateur.pseudo,
                             "mdp": utilisateur.mdp,
-                            "liste_films_favoris": utilisateur.liste_films_favoris,
-                            "mail": utilisateur.mail,
-                            "liste_eclaireurs": utilisateur.liste_eclaireurs,
                             "id_utilisateur": utilisateur.id_utilisateur,
                         },
                     )
@@ -240,8 +230,6 @@ class UtilisateurDao(metaclass=Singleton):
             utilisateur = Utilisateur(
                 pseudo=res["pseudo"],
                 mdp=res["mdp"],
-                liste_films_favoris=res["liste_films_favoris"],
-                liste_eclaireurs=res["liste_eclaireurs"],
                 id_utilisateur=res["id_utilisateur"],
             )
 
