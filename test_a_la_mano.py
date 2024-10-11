@@ -30,8 +30,8 @@ if __name__ == "__main__":
         print("Un utilisateur existe dans la base de données.")
     else:
         print("Aucun utilisateur trouvé.")
-    utilisateurdao = UtilisateurDao()
-    utilisateurtest = utilisateurdao.trouver_par_id(1)
-    utilisateur_list_test = utilisateurdao.lister_tous()
+    utilisateur1 = UtilisateurDao()
+    utilisateurtest = utilisateur1.trouver_par_id(1)
+    utilisateur_list_test = utilisateur1.lister_tous()
     print(utilisateur_list_test)
     print(utilisateurtest.pseudo)

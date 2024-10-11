@@ -1,8 +1,5 @@
 import requests
 
-
-
-
 headers = {
     "accept": "application/json",
     "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMTdjYzRlYzBjY2VjODAyYjhkODNkZGU4NDkyZDcxZCIsIm5iZiI6MTcyNTYzMzI4NS4wODcxMDMsInN1YiI6IjY2ZGIxMjEwOGJhODA5NTQxNTE2MGM4ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ._FH9kdpEyOIYMwhcSmatqB-fSXewAqX3uGa6Wj0OIDY"
@@ -12,11 +9,11 @@ headers = {
 
 def rechercher_film(query, language, primary_release_year, page, region, year):
     payload = {'query': query,
-                'language': language,
-                'primary_release_year': primary_release_year,
-                'page': page,
-                'region': region,
-                'year': year}
+               'language': language,
+               'primary_release_year': primary_release_year,
+               'page': page,
+               'region': region,
+               'year': year}
     response = requests.get('https://api.themoviedb.org/3/search/movie?',
     params=payload, headers=headers)
     data = response.json()
