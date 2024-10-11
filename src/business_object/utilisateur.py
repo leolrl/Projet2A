@@ -10,13 +10,14 @@ class Utilisateur:
         pseudo de l'utilisateur
     mdp : str
         le mot de passe de l'utilisateur
-    liste_eclaireurs : 
+    liste_eclaireurs :
         la liste des eclaireurs qu'il suit
-    liste_films_favoris : 
+    liste_films_favoris :
         la liste de ses films favoris
     """
 
-    def __init__(self, pseudo, mdp=None, liste_eclaireurs=[], liste_films_favoris=[], id_utilisateur=None):
+    def __init__(self, pseudo, mdp=None, liste_eclaireurs=[],
+                 liste_films_favoris=[], id_utilisateur=None):
         """Constructeur"""
         self.id_utilisateur = id_utilisateur
         self.pseudo = pseudo
@@ -30,4 +31,5 @@ class Utilisateur:
 
     def as_list(self) -> list[str]:
         """Retourne les attributs du joueur dans une liste"""
-        return [self.id_utilisateur, self.pseudo, self.mdp, self.liste_eclaireurs, self.liste_films_favoris]
+        return [self.id_utilisateur, self.pseudo, self.mdp,
+                self.liste_eclaireurs, self.liste_films_favoris]

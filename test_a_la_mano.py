@@ -1,4 +1,3 @@
-from src.business_object.utilisateur import Utilisateur
 from src.dao.db_connection import DBConnection
 from src.dao.utilisateur_dao import UtilisateurDao
 
@@ -12,13 +11,13 @@ def verifier_utilisateur_existe():
                     "SELECT * FROM projet_info.utilisateur"
                 )
                 res = cursor.fetchone()
-        
+
         validite = False
         if res:
             validite = True
-        
+
         return validite
-    
+
     except Exception as e:
         print(f"Erreur lors de la vérification de l'utilisateur : {e}")
         return False
@@ -36,7 +35,3 @@ if __name__ == "__main__":
     utilisateur_list_test = utilisateurdao.lister_tous()
     print(utilisateur_list_test)
     print(utilisateurtest.pseudo)
-
-
-
-
