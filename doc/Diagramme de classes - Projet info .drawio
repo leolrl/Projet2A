@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="-lLpuW26wP0kKTF83kYT">
+    <mxGraphModel dx="1613" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Nlg_wDLqZmPlsAexhDsB-1" target="QUixbwAzo_8CxbM0iSIQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-21" value="Utilise" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QUixbwAzo_8CxbM0iSIQ-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.2275" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-1" value="Utilisateur" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="630" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-2" value="+ id_utlisateur (None) : int&lt;div&gt;&lt;div&gt;+ pseudo: str&lt;/div&gt;&lt;div&gt;+ mdp (None) : str&lt;/div&gt;&lt;div&gt;+ liste_eclaireurs (None) :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;list[int]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ liste_film_favoris (None):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;list[int]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ liste_films_a_voir (None) : list[int]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-1" vertex="1">
+          <mxGeometry y="26" width="220" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Nlg_wDLqZmPlsAexhDsB-1" vertex="1">
+          <mxGeometry y="130" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-4" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ suivre_eclaireur (Utilisateur) :: bool&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ arreter_de_suivre(Utilisateur) :: bool&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ajouter_film_favoris (Film) :: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ informations() :: str&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-1" vertex="1">
+          <mxGeometry y="138" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-5" value="Film" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="465" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-6" value="+ id_film: int&lt;div&gt;+ titre: str&lt;br&gt;&lt;div&gt;+ date_sortie: date&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ realisateur: str&lt;/div&gt;&lt;div&gt;+ langue_vo: str&lt;/div&gt;&lt;div&gt;+ genre: str&lt;/div&gt;&lt;div&gt;+ resume: str&lt;/div&gt;&lt;div&gt;+ moyenne_utilisateurs (None) : float&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-5" vertex="1">
+          <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Nlg_wDLqZmPlsAexhDsB-5" vertex="1">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-8" value="&lt;div&gt;+ actualiser_moyenne() :: bool&lt;/div&gt;&lt;div&gt;+ informations() :: str&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-5" vertex="1">
+          <mxGeometry y="178" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-9" value="Visionnage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="660" width="160" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-10" value="+ id_utilisateur: int&lt;div&gt;+ id_film: int&lt;/div&gt;&lt;div&gt;+ vu : bool&lt;/div&gt;&lt;div&gt;+ note: int&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ favori : bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-12" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ noter(int)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Nlg_wDLqZmPlsAexhDsB-9" vertex="1">
+          <mxGeometry y="118" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.049;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitPerimeter=0;" parent="1" source="Nlg_wDLqZmPlsAexhDsB-12" target="Nlg_wDLqZmPlsAexhDsB-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nlg_wDLqZmPlsAexhDsB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" parent="1" source="Nlg_wDLqZmPlsAexhDsB-10" target="Nlg_wDLqZmPlsAexhDsB-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QUixbwAzo_8CxbM0iSIQ-7" target="QUixbwAzo_8CxbM0iSIQ-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-26" value="Modifie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QUixbwAzo_8CxbM0iSIQ-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.338" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-7" value="UtilisateurDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="30" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QUixbwAzo_8CxbM0iSIQ-7" vertex="1">
+          <mxGeometry y="26" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-10" value="+ creer (Utilisateur) :: bool&amp;nbsp;&lt;div&gt;+ trouver_par_id (int) :: Utilisateur&lt;/div&gt;&lt;div&gt;+ trouver_par_pseudo (str) :: Utilisateur&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ lister_tous():: list[Utilisateur]&lt;/div&gt;&lt;div&gt;+ modifier (Utilisateur) :: bool&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ supprimer (&lt;span style=&quot;background-color: initial;&quot;&gt;Utilisateur&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) :: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ se_connecter (pseudo :str , mdp :str) :: Utilisateur&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ recupérer_eclaireurs (Utilisateur) :: list[Utilisateur]&lt;/div&gt;&lt;div&gt;+ ajouter_eclaireur(Utilisateur1, Utilisateur2) : bool&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ supprimer_eclaireur(Utilisateur1, Utilisateur2) : bool&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QUixbwAzo_8CxbM0iSIQ-7" vertex="1">
+          <mxGeometry y="34" width="300" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-16" value="UtilisateurService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="12" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QUixbwAzo_8CxbM0iSIQ-16" vertex="1">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-19" value="+ creer(pseudo : str, mdp : str&lt;span style=&quot;background-color: initial;&quot;&gt;) :: Utilisateur&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ lister_tous(inclure_mdp : bool) :: list[Utilisateur]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_id(id_utilisateur: int) : Utilisateur&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ supprimer (Utilisateur): bool&lt;/div&gt;&lt;div&gt;+ se_connecter(pseudo : str, mdp : str) :: Utilisateur&lt;/div&gt;&lt;div&gt;+ pseudo_deja_utilise(pseudo : str) :: bool&lt;/div&gt;&lt;div&gt;+ chercher_utilisateur(pseudo : str) :: Utilisateur&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ se_deconnecter() :: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ modifier_utilisateur(Utilisateur, kwargs) :: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ recuperer_eclaireurs(Utilisateur) :: list [Utilisateur]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ajouter_eclaireur(Utilisateur1, Utilisateur2) :: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ supprimer_eclaireur(Utilisateur1, Utilisateur2) :: bool&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QUixbwAzo_8CxbM0iSIQ-16" vertex="1">
+          <mxGeometry y="34" width="270" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QUixbwAzo_8CxbM0iSIQ-19" target="QUixbwAzo_8CxbM0iSIQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-23" value="Appelle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QUixbwAzo_8CxbM0iSIQ-22" vertex="1" connectable="0">
+          <mxGeometry x="0.1155" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-24" value="Base de données locale" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-27" value="FilmService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="850" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QUixbwAzo_8CxbM0iSIQ-27" vertex="1">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QUixbwAzo_8CxbM0iSIQ-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_id(int) :: Film&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ trouver_par_titre(str) :: list[Film]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ recherche_par_genre(str) :: list[Film]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QUixbwAzo_8CxbM0iSIQ-27" vertex="1">
+          <mxGeometry y="34" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nlk01ConiAujDCRmsQrJ-1" value="VisionnageDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="250" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nlk01ConiAujDCRmsQrJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="nlk01ConiAujDCRmsQrJ-1" vertex="1">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nlk01ConiAujDCRmsQrJ-4" value="+ creer(Visionnage) :: bool&lt;div&gt;+ supprimer(Visionnage) :: bool&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ modifier(Visionnage) :: bool&lt;/div&gt;&lt;div&gt;+ trouver(Film, Utilisateur) : Visionnage&lt;br&gt;&lt;div&gt;+ films_vus(Utilisateur) :: list[int]&lt;/div&gt;&lt;div&gt;+ films_a_voir(Utilisateur) :: list[int]&lt;/div&gt;&lt;div&gt;+ film_favoris(Utilisateur) :: list[int]&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ont_vu(Film) :: list[int]&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nlk01ConiAujDCRmsQrJ-1" vertex="1">
+          <mxGeometry y="34" width="220" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="nlk01ConiAujDCRmsQrJ-6" value="TMDB API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlk01ConiAujDCRmsQrJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="nlk01ConiAujDCRmsQrJ-4" target="QUixbwAzo_8CxbM0iSIQ-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nlk01ConiAujDCRmsQrJ-12" value="Modifie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nlk01ConiAujDCRmsQrJ-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.4765" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-1" value="VisionnageService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="360" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HXxvRozE7-PYDhMRJ1Kh-1" vertex="1">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-3" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ modifier(Visionnage, kwargs) :: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ film_vu(Utilisateur, Film) :: Visionnage&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ film_a_voir (Utilisateur, Film) :: Visionnage&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ supprimer (Visionnage) :: bool&lt;/div&gt;&lt;div&gt;+ films_vus_par_utilisateur (Utilisateur) :: list [Film]&lt;/div&gt;&lt;div&gt;+ film_a_voir_utilisateur(Utilisateur) :: list[Film]&lt;/div&gt;&lt;div&gt;+ qui_a_vu_film(Film) :: list[str]&lt;/div&gt;&lt;div&gt;+ film_favoris(Utilisateur) : list[Film]&lt;/div&gt;&lt;div&gt;+ trouver_note (Utilisateur, Film) :: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ moyenne_note(Utilisateur) :: int&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ quels_eclaireurs_ont_vu (Film) :: list[Utilisateur]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HXxvRozE7-PYDhMRJ1Kh-1" vertex="1">
+          <mxGeometry y="34" width="270" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QUixbwAzo_8CxbM0iSIQ-29" target="nlk01ConiAujDCRmsQrJ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HXxvRozE7-PYDhMRJ1Kh-6" value="Appelle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HXxvRozE7-PYDhMRJ1Kh-5" vertex="1" connectable="0">
+          <mxGeometry x="0.6111" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-envGrE41_wKfxCsry3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.416;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nlg_wDLqZmPlsAexhDsB-9" target="HXxvRozE7-PYDhMRJ1Kh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-envGrE41_wKfxCsry3-12" value="Est utilisé par" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6-envGrE41_wKfxCsry3-5">
+          <mxGeometry x="-0.2631" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-envGrE41_wKfxCsry3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HXxvRozE7-PYDhMRJ1Kh-3" target="nlk01ConiAujDCRmsQrJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-envGrE41_wKfxCsry3-13" value="Appelle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6-envGrE41_wKfxCsry3-6">
+          <mxGeometry x="0.3657" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-envGrE41_wKfxCsry3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QUixbwAzo_8CxbM0iSIQ-27" target="Nlg_wDLqZmPlsAexhDsB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-envGrE41_wKfxCsry3-8" value="Créé" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6-envGrE41_wKfxCsry3-7">
+          <mxGeometry x="-0.3141" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

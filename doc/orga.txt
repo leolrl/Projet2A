@@ -1,0 +1,5 @@
+Répartition des rôles
+Organisation + Gestion de projet: Léo (Respect des deadlines, organisation des "reunion" de travail, suivi de l'avancement et des fonctionalités)
+Qualité: Emile (Relecture des livrables + diagrammes + documentation + nom de variable/fonction/methode...)
+Dev: Mathieu + Yatoute (+ Tout le monde) (Prise de recul et repartition du développement des fonctionnalités, Responsable du bon fonctionnement de l'ensemble du code/des differentes interaction de methodes/fonctions)
+Rédaction des livrables: Ibrahima (Rédaction et mise en forme des documents de projet, Synthèse des travaux réalisés)
