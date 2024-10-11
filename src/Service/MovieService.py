@@ -1,4 +1,5 @@
 from src.Model.Movie import Movie
+from src.Service.AppelTMDB import AppelTMDB
 
 headers = {
     "accept": "application/json",
@@ -13,6 +14,6 @@ class MovieService:
         self.movie_db = movie_db
 
     def get_by_id(self, movie_id: int) -> Movie:
-        return Movie(id=1, original_title="Un jour peut etre cette ligne renverra quelque chose d'interressant")
+        return Movie(id=movie_id, original_title="Un jour peut etre...")
         # return self.movie_db.get_by_id(movie_id)
 
