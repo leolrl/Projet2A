@@ -6,7 +6,7 @@ from src.utils.singleton import Singleton
 
 
 class UtilisateurDao(metaclass=Singleton):
-    """Classe contenant les méthodes pour accéder aux Utilisateurs 
+    """Classe contenant les méthodes pour accéder aux Utilisateurs
     de la base de données"""
 
     def creer(self, utilisateur: Utilisateur) -> bool:
@@ -29,7 +29,8 @@ class UtilisateurDao(metaclass=Singleton):
             with DBConnection().connection as connection:
                 with connection.cursor() as cursor:
                     cursor.execute(
-                        "INSERT INTO projet_info.utilisateur(pseudo, mdp) VALUES "
+                        "INSERT INTO projet_info.utilisateur"
+                        "(pseudo, mdp) VALUES "
                         "(%(pseudo)s, %(mdp)s)             "
                         "  RETURNING id_utilisateur;               ",
                         {
@@ -48,7 +49,6 @@ class UtilisateurDao(metaclass=Singleton):
             created = True
 
         return created
-
 
     def trouver_par_id(self, id_utilisateur) -> Utilisateur:
         """trouver un utilisateur grace à son id
@@ -86,7 +86,6 @@ class UtilisateurDao(metaclass=Singleton):
 
         return utilisateur
 
-
     def lister_tous(self) -> list[Utilisateur]:
         """lister tous les utilisateurs
 
@@ -105,7 +104,7 @@ class UtilisateurDao(metaclass=Singleton):
                 with connection.cursor() as cursor:
                     cursor.execute(
                         "SELECT *                              "
-                        "  FROM projet_info.utilisateur;                        "
+                        "  FROM projet_info.utilisateur;   "
                     )
                     res = cursor.fetchall()
         except Exception as e:
@@ -126,8 +125,7 @@ class UtilisateurDao(metaclass=Singleton):
 
         return liste_utilisateurs
 
-
-    def modifier(self, utilisateur : Utilisateur) -> bool:
+    def modifier(self, utilisateur: Utilisateur) -> bool:
         """Modification d'un utilisateur dans la base de données
 
         Parameters
@@ -150,7 +148,7 @@ class UtilisateurDao(metaclass=Singleton):
                         "UPDATE utilisateur                            "
                         "   SET pseudo      = %(pseudo)s,                   "
                         "       mdp         = %(mdp)s,                      "
-                        " WHERE id_utilisateur = %(id_utilisateur)s;                  ",
+                        " WHERE id_utilisateur = %(id_utilisateur)s;    ",
                         {
                             "pseudo": utilisateur.pseudo,
                             "mdp": utilisateur.mdp,
@@ -162,7 +160,6 @@ class UtilisateurDao(metaclass=Singleton):
             logging.info(e)
 
         return res == 1
-
 
     def supprimer(self, utilisateur) -> bool:
         """Suppression d'un utilisateur dans la base de données
@@ -192,7 +189,6 @@ class UtilisateurDao(metaclass=Singleton):
             raise
 
         return res > 0
-
 
     def se_connecter(self, pseudo, mdp) -> Utilisateur:
         """se connecter grâce à son pseudo et son mot de passe
@@ -236,9 +232,7 @@ class UtilisateurDao(metaclass=Singleton):
         return utilisateur
 
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     Oui = Utilisateur(pseudo="Oui")
     createur = UtilisateurDao()
     print(createur.creer(Oui))
-
-
