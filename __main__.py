@@ -1,5 +1,4 @@
 from src.Interface.API import run_app
-
 from src.Service.MovieService import MovieService
 
 if __name__ == "__main__":
