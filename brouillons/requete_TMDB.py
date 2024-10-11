@@ -48,3 +48,5 @@ def obtenir_info_film(film_id,language):
         'Production(s)': ', '.join(production['name'] for production in data.get('production_companies', [])),
         'Pays de production': ', '.join(production['name'] for production in data.get('production_countries', [])),
     }
+
+print(obtenir_info_film(238,'fr-FR'))
